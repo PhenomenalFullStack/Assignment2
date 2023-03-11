@@ -25,7 +25,14 @@ namespace Assignment2_CS
             animals.Add(housesnek);
 
             // TODO: Add nemo
-
+            Actinopterygii clownfish = new Actinopterygii
+            {
+                 CommonName = "Orange Clownfish",
+                 BinomalName = "Amphiprion percula",
+                 conservation = ConservationStatus.NT,
+                 bloodtype = BloodType.O
+            };
+            animals.Add(clownfish)
 
             foreach (Animalia animal in animals)
             {
